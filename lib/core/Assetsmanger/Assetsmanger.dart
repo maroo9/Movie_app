@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
-class Assetsmanger extends StatelessWidget {
-  const Assetsmanger({super.key});
 
-  @override
-  Widget build(BuildContext context) {
-    return const Placeholder();
-  }
+abstract class Imagemanger {
+  static const String start="assets/images/startyellow.png";
+  static const String rout="assets/images/routyellow.png";
 }
