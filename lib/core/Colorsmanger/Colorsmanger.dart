@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class ColorManger{
+class Colorsmanger{
   static const Color Black=Color(0xFF121312);
   static const Color White=Color(0xFFFFFFFF);
   static const Color Gray =Color(0xFFFBB3B);
