@@ -1,0 +1,56 @@
+import 'package:flutter/material.dart';
+class CustomTextForm extends StatelessWidget {
+  CustomTextForm({super.key,
+    this.labelstyle,
+    this.labelText,
+     this.hintText,
+     required this.controller,
+     this.prefixIcon,
+     this.suffixIcon,
+     this.isObscure = false,
+     this.keyboardType = TextInputType.text,
+     required this.validator,
+     this.Lines=1,
+
+
+   });
+final String? labelText;   /// as String "Name"
+final TextStyle? labelstyle;   /// as String "Name"
+final String? hintText;   /// as String "Hint name"
+final IconData?prefixIcon; /// as (IconData) that holds all icons
+final Widget? suffixIcon;     /// as widget to  use  IconButton
+final TextInputType? keyboardType;
+final bool isObscure;
+   String? Function(String?)? validator;  /// work as the condition of the inputs by user
+   final TextEditingController controller;
+   final int Lines;
+   @override
+  Widget build(BuildContext context) {
+    return TextFormField(
+
+      maxLines: Lines,
+      controller:controller ,
+      validator: validator,
+      obscureText: isObscure,
+      keyboardType: keyboardType,
+      decoration: InputDecoration(
+        prefixIcon:prefixIcon == null? null:Icon(prefixIcon),
+        suffixIcon: suffixIcon,
+        labelText: labelText,
+        hintText: hintText,
+        labelStyle: labelstyle,
+        enabledBorder: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(10),
+          borderSide: BorderSide(color: Colors.grey),
+        ),
+        focusedBorder: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(10),
+          borderSide: BorderSide(color: Colors.blue),
+        ),
+
+
+      ),
+
+    );
+  }
+}
