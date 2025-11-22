@@ -1,0 +1,23 @@
+import 'package:flutter/material.dart';
+
+abstract class Imagemanger {
+  static const String start="assets/images/startyellow.png";
+  static const String rout="assets/images/routyellow.png";
+  static const String Avengers="assets/images/Avengers.jpg";
+  static const String oppenheimer="assets/images/oppenheimer.png";
+  static const String badboys="assets/images/badboys.png";
+  static const String doctorstrange="assets/images/doctorstrange.jpg";
+  static const String film1917="assets/images/1917.jpg";
+  static const String blackwidowblack="assets/images/blackwidowblack.png";
+  static const String captainamerica="assets/images/captainamerica.jpg";
+  static const String ironman3="assets/images/ironman3.jpg";
+  static const String civilwar="assets/images/civilwar.jpg";
+  static const String joker="assets/images/joker.jpg";
+  static const String hobbsshaw="assets/images/hobbs&shaw.jpg";
+  static const String avengersendgame="assets/images/avengersendgame.jpg";
+  static const String blackwidowwhite="assets/images/blackwidowwhite.jpg";
+  static const String blackpanther="assets/images/blackpanther.jpg";
+  static const String doctorwho="assets/images/doctorwho.jpg";
+  static const String godzilla="assets/images/godzilla.jpg";
+  static const String wednesdav="assets/images/wednesdav.jpg";
+}
