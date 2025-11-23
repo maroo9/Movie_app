@@ -60,17 +60,17 @@ mainAxisAlignment: MainAxisAlignment.center,
         children: [
           CircleAvatar(
             radius: 40,
-            backgroundImage: AssetImage(Imagemanger.Avtarman),
+            backgroundImage: AssetImage(ImageAssets.Avtarman),
           ),
           SizedBox(width: 10,),
           CircleAvatar(
             radius: 70,
-            backgroundImage:AssetImage(Imagemanger.Avtar),
+            backgroundImage:AssetImage(ImageAssets.Avtar),
           ),
           SizedBox(height: 24,),
           CircleAvatar(
             radius: 40,
-            backgroundImage: AssetImage(Imagemanger.Avtarbear),
+            backgroundImage: AssetImage(ImageAssets.Avtarbear),
           ),
 
 
@@ -228,8 +228,8 @@ mainAxisAlignment: MainAxisAlignment.center,
         child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          IconButton(onPressed: (){}, icon: Image(image: AssetImage(Imagemanger.EgyptFlag),width: 27,)),
-          IconButton(onPressed: (){}, icon: Image(image: AssetImage(Imagemanger.UsaFlag),width: 27,)),
+          IconButton(onPressed: (){}, icon: Image(image: AssetImage(ImageAssets.EgyptFlag),width: 27,)),
+          IconButton(onPressed: (){}, icon: Image(image: AssetImage(ImageAssets.UsaFlag),width: 27,)),
         ],
       ),
       ),

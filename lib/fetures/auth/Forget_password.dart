@@ -45,7 +45,7 @@ class _ForgetPasswordState extends State<ForgetPassword> {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          Image.asset(Imagemanger.womenontheOffice),
+          Image.asset(ImageAssets.womenontheOffice),
           SizedBox(height: 24,),
           CustomTextForm(
             labelstyle: GoogleFonts.inter(fontSize: 10,fontWeight: FontWeight.w400,color: Colorsmanger.White),

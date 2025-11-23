@@ -18,7 +18,7 @@ class _SplashState extends State<Splash> {
     // TODO: implement initState
     super.initState();
     Timer(Duration(seconds: 2), (){
-      Navigator.pushReplacementNamed(context, RoutesManger.onboarding);
+      Navigator.pushReplacementNamed(context, Routesmanger.Onboriding1);
     });
   }
   @override
