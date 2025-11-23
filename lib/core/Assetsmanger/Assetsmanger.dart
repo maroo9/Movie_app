@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-abstract class Imagemanger {
-  static const String start="assets/images/startyellow.png";
-  static const String rout="assets/images/routyellow.png";
+abstract class ImageAssets {
+  static const String splash="assets/images/splash_logo.png";
+  static const String route="assets/images/route_branding.png";
   static const String Avengers="assets/images/Avengers.jpg";
   static const String oppenheimer="assets/images/oppenheimer.png";
   static const String badboys="assets/images/badboys.png";

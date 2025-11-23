@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:movie_app1/config/Theme/Theme.dart';
+import 'package:movie_app1/core/Routesmanger/Routesmanger.dart';
 void main(){
   runApp( const MoveApp());
 }
@@ -9,13 +11,19 @@ class MoveApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-       initialRoute: ,
-      routes: {},
-      theme:ThemeManger.light ,
-      themeMode:ThemeMode.light ,
-      darkTheme:ThemeManger.dark ,
-      locale: Locale("en"),
+    return ScreenUtilInit(
+
+      minTextAdapt: true,
+      splitScreenMode: true,
+      child: MaterialApp(
+        debugShowCheckedModeBanner: false,
+         initialRoute:RoutesManger.splash ,
+        routes: RoutesManger.routes,
+        theme:ThemeManger.light ,
+        themeMode:ThemeMode.dark ,
+        darkTheme:ThemeManger.dark ,
+        locale: Locale("en"),
+      ),
     );
   }
 }
