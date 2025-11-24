@@ -24,6 +24,7 @@ class _SplashState extends State<Splash> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colorsmanger.Black,
       body: Center(
         child: Padding(
           padding: const EdgeInsets.symmetric(vertical: 20),
