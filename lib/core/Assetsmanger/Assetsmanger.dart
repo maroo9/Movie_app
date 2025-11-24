@@ -20,12 +20,12 @@ abstract class ImageAssets {
   static const String doctorwho="assets/images/doctorwho.jpg";
   static const String godzilla="assets/images/godzilla.jpg";
   static const String wednesdav="assets/images/wednesdav.jpg";
+  static const String womenontheOffice="assets/images/img_7.png";
   static const String EgyptFlag= "assets/images/img_2.png";
   static const String UsaFlag= "assets/images/img_4.png";
   static const String Avtar= "assets/images/img_3.png";
   static const String Avtarman= "assets/images/img_5.png";
   static const String Avtarbear= "assets/images/img_6.png";
-  static const String womenontheOffice= "assets/images/img_7.png";
 }
 abstract class Iconmanger{
   static const String Google= "assets/images/img_1.png";
